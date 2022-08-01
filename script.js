@@ -1,7 +1,4 @@
-let container = document.createElement('div');
-container.className = 'container';
-
-document.body.appendChild(container);
+let container = document.querySelector('.container');
 
 let square = document.createElement('div');
 square.className = 'square'
